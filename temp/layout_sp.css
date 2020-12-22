@@ -1,0 +1,1845 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* メニューバー処理 */
+.slicknav_menu {
+    display:none;/*PC時は非表示*/
+}
+
+@media screen and (max-width: 1600px) {
+
+    header div.logo_box {
+        width: 18%;
+    }
+
+    header div.tell_box::before {
+        width: 12.7315%;
+    }
+
+    header div.tell_box dl dt {
+        font-size: 0.859vw;
+    }
+
+    header div.tell_box dl dd {
+        font-size: 1.24vw;
+    }
+
+    header div.contact_box a {
+        padding-top: 5px;
+        font-size: 1.4em;
+    }
+
+    header div.menu {
+        width: 39.521%;
+    }
+
+    .logogroup_size{
+        margin: 17px 0 0 10px;
+        width: 130px;
+    }
+
+    .menu20{
+        width:20% !important;
+    }
+
+    .menu25{
+        width:25% !important;
+    }
+
+    .menu30{
+        width:30% !important;
+    }
+
+    #Contents h2,
+    #Contents h2#New,
+    #Contents h2#Specialties {
+        font-size: 3em;
+    }
+
+    #Contents h2::before,
+    #Contents h2#New::before,
+    #Contents h2#Specialties::before {
+        width: 38px;
+        height: 38px;
+    }
+
+    /* 新着・特選物件 */
+    div.flipsnap a.item {
+        height: 215px;
+    }
+
+    div.flipsnap a.item div.flip_img {
+        height: 215px;
+    }
+
+    div.flipsnap a.item div.flip_img img {
+        width: auto;
+        height: 215px;
+    }
+
+    div.flipsnap a.item div.flip_txt h3  {
+        font-size: 1.4em;
+    }
+
+    div.flipsnap a.item div.flip_txt p {
+        font-size: 1.2em;
+    }
+
+    div.flipsnap a.item div.flip_txt p.address,
+    div.flipsnap a.item div.flip_txt p.access {
+        padding-top: 20px;
+    }
+
+    div.next,
+    div.prev {
+        width: 40px;
+        height: 40px;
+        margin-top: -22.5px;
+    }
+
+    div.next {
+        right: -29px;
+    }
+
+    div.prev {
+        left: -29px;
+    }
+
+    div.next::before,
+    div.prev::before {
+        width: 10px;
+        height: 10px;
+        top: 50%;
+        left: 50%;
+        margin-top: -5px;
+    }
+
+    div.next::before {
+        margin-left: -8px;
+    }
+
+    div.prev::before {
+        margin-left: -2px;
+    }
+
+    /* 売出中の物件 */
+    a.item_box div.info_01 p.price {
+        font-size: 1.2em;
+    }
+
+    a.item_box div.info_01 p.price::before {
+        width: 33.053%;
+        top: 0;
+    }
+
+    a.item_box div.img_wrapper.pano::after {
+        width: 69px;
+        height: 69px;
+        bottom: 5px;
+    }
+
+    a.item_box div.img_wrapper.floor::before {
+        right: 115px;
+        bottom: 5px;
+    }
+
+    /* 物件詳細 */
+    div.details div.img_box div.main_img_wrapper {
+        width: 66.819%;
+        margin-right: 0.916%;
+    }
+
+    div.details div.img_box div.main_img_wrapper div.main_img {
+        height: calc(31.248vw * 0.8);
+    }
+
+    div.details div.img_box ul.thumbnail_img {
+        width: 32.265%;
+    }
+
+    div.details div.img_box ul.thumbnail_img li {
+        height: calc(4.85vw * 0.74);
+    }
+
+    div.details ul.icon_box li {
+        width: 21.684%;
+    }
+
+    div.details ul.icon_box li.floor {
+        width: 33.673%;
+    }
+
+    div.details ul.icon_box li.pdf {
+        width: 22.959%;
+    }
+
+    div.details div.info p {
+        font-size: 1.6em;
+    }
+
+    div.details div.contact_box {
+        font-size: 1.3em;
+    }
+
+    div.details div.contact_box input[type="submit"] {
+        margin-top: 9.5px;
+    }
+
+    div.details div.overview_box dl dt {
+        width: 6.25vw;
+    }
+
+    div.details div.overview_box dl dd {
+        padding-left: 7.031vw;
+    }
+
+    #map_b_right p {
+        font-size: 15px;
+    }
+
+    div.details div.loan_in {
+        font-size: 1.2em;
+    }
+
+    div.details div.loan_block input[type="number"] {
+        font-size: 1.4em;
+        padding-left: 20%;
+    }
+
+    div.details div#price_sum {
+        height: 45px;
+        margin-top: 50px;
+        line-height: 45px;
+    }
+
+    div.details div#price_sum::before {
+        border-top: solid 23px #5a5acc;
+        border-left: solid 58px transparent;
+        border-right: solid 58px transparent;
+        top: -36px;
+        margin-left: -58px;
+    }
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+    header div.logo_box {
+        width: 22.373%;
+        height: 75px;
+    }
+
+    header div.logo_box .logo_txt {
+        height: 52px;
+    }
+
+    header div.logo_box h1 {
+        font-size: 0.859vw;
+    }
+
+    header div.menu {
+        width: 40.521%;
+        height: 75px;
+    }
+
+    header div.menu ul li {
+        font-size: 1.195vw;
+    }
+
+    header div.tell_box {
+        height: 75px;
+    }
+
+    header div.tell_box::before {
+        width: 13.692%;
+    }
+
+    header div.tell_box dl dt {
+        margin-top: 2px;
+    }
+
+    header div.contact_box a {
+        height: 28px;
+        padding-top: 4px;
+        font-size: 1.016vw;
+    }
+
+    .logogroup_size{
+        margin: 21px 0 0 10px;
+        width: 105px;
+    }
+
+    .group_logo_box {
+        width: 11.792%;
+        height: 80px;
+        float: left;
+    }
+
+    #Top_img {
+        margin-top: 75px;
+    }
+
+
+    div.flipsnap a.item div.flip_img {
+        width: 55%;
+    }
+
+    div.flipsnap a.item div.flip_txt {
+        width: 45%;
+        padding: 5px;
+    }
+
+    div.flipsnap a.item div.flip_txt p {
+        font-size: 1vw;
+    }
+
+    div.flipsnap a.item div.flip_txt p.layout,
+    div.flipsnap a.item div.flip_txt p.price {
+        padding-left: 55px;
+    }
+
+    div.flipsnap a.item div.flip_txt p.address::before,
+    div.flipsnap a.item div.flip_txt p.access::before,
+    div.flipsnap a.item div.flip_txt p.layout::before,
+    div.flipsnap a.item div.flip_txt p.price::before {
+        width: 50px;
+    }
+
+    div#Contents.list,
+    div#Contents.details,
+    div#Contents.service {
+        margin-top: 87px;
+    }
+
+    /* 売出中の物件 */
+    a.item_box h3 {
+        font-size: 2em;
+    }
+
+    a.item_box h3.new::before {
+        height: 24px;
+        top: 9px;
+    }
+
+    a.item_box div.img_wrapper.pano::after {
+        width: 11.762%;
+        height: 27.881%;
+    }
+
+    a.item_box div.img_wrapper.floor::before {
+        width: 22.501%;
+        height: 16.771%;
+        right: 19.603%;
+    }
+
+    a.item_box div.info_01 p.price {
+        font-size: 0.9375vw;
+    }
+
+    a.item_box div.info_01 p.price::before {
+        height: 2.344vw;
+        line-height: 2.344vw;
+    }
+
+    a.item_box div.feature p,
+    a.item_box div.info_02 p {
+        font-size: 1.2em;
+    }
+
+    /* 物件詳細 */
+    div.details div.info {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    div.details div.info p {
+        padding-left: 7.812vw;
+    }
+
+    div.details div.info p.price {
+        width: 100%;
+    }
+
+    div.details div.info p.layout {
+        width: 50%;
+    }
+
+    div.details div.info p.floor_area {
+        width: 50%;
+    }
+
+    div.details div.info p.price::before,
+    div.details div.info p.layout::before,
+    div.details div.info p.floor_area::before {
+        width: 7.812vw;
+    }
+
+    div.details div.img_box div.main_img_wrapper {
+        width: 77.189%;
+    }
+
+    div.details div.img_box div.main_img_wrapper div.main_img {
+        height: calc(36.17vw * 0.8);
+    }
+
+    div.details div.img_box ul.thumbnail_img {
+        width: 21.895%;
+    }
+
+    div.details div.img_box ul.thumbnail_img li {
+        width: 46.091%;
+        margin-right: 3.818%;
+        height: calc(4.92vw * 0.74);
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(3n) {
+        margin-right: 3.818%;
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-child(3) {
+        margin-top: 7px;
+    }
+
+    div.details div.info2 div.feature,
+    div.details div.info2 div.facility {
+        width: 100%;
+        min-height: 155px;
+    }
+
+    div.details div.info2 div.facility {
+        margin-top: 10px;
+    }
+
+    div.details div.pano_box iframe,
+    div.details div.pano_noimg {
+        height: 600px;
+    }
+
+    div.details div.contact_box {
+        padding: 10px;
+        text-align: center;
+    }
+
+    div.details div.contact_box p {
+        width: 100%;
+    }
+
+    div.details div.contact_box input[type="submit"] {
+        width: 70%;
+        height: 60px;
+        float: none;
+    }
+
+    div.details div.overview_box dl {
+        width: 100%;
+    }
+
+    div.details div.overview_box dl:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    #map_to {
+        right: 52px;
+    }
+
+    div#map {
+        width: 100%;
+        border-right: 1px solid #ccc;
+        border-bottom: none;
+    }
+
+    div#map_b_right {
+        width: 100%;
+        height: auto;
+    }
+
+    #map_b_right p {
+        width: 50%;
+        margin-left: 0;
+        float: left;
+    }
+
+    div.details div.loan_block {
+        width: 48.205%;
+        margin-left: 3.59%;
+    }
+
+    div.details div.loan_block:nth-child(3) {
+        margin-left: 0;
+    }
+
+    div.details div.loan_block.pb {
+        width: 30.9%;
+    }
+
+    div.details div#price_sum {
+        width: 35%;
+    }
+
+    div.details div.sum_wrapper p.price_date {
+        margin-right: 20%;
+    }
+
+    /* 成約済みの物件 */
+    div.sold_item {
+        height: 90px;
+        margin-top: 10px;
+        font-size: 1.2em;
+    }
+
+    div.sold_item:nth-of-type(-n+6) {
+        height: calc(30.448vw * 0.36);
+    }
+
+    div.sold_item:nth-of-type(-n+3) {
+        margin-top: 40px;
+    }
+
+    div.sold_item div.img_box {
+        width: 40%;
+        height: calc(11.667vw * 0.75);
+    }
+
+    div.sold_item div.info_box.img_on {
+        padding-left: 42.546%;
+    }
+
+    /* フッター */
+    footer div.site_map ul {
+        width: 82.742%;
+    }
+
+    footer div.site_map ul li {
+        padding-left: 15px;
+        font-size: 1.2em;
+    }
+
+    footer div.site_map ul.upper li {
+        padding-bottom: 10px;
+    }
+
+    footer div.site_map ul.lower li {
+        margin-top: 10px;
+    }
+
+    footer div.site_map ul li::before {
+        left: 0;
+        border-left: solid 9px #000000;
+        border-top: solid 7px transparent;
+        border-bottom: solid 7px transparent;
+    }
+
+    footer div.site_map ul li:first-child {
+        padding-left: 30px;
+    }
+
+    footer div.site_map ul li:first-child::before {
+        left: 15px;
+    }
+
+    footer div.co_address dl dt {
+        font-size: 1.4em;
+    }
+
+    footer div.co_address dl dd {
+        font-size: 1.2em;
+    }
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+
+
+    header {
+        background: #ffffff;
+    }
+
+    header div.logo_box {
+        width: 230px;
+        height: 55px;
+    }
+
+    header div.logo_box .logo_txt {
+        height: 33px;
+    }
+
+    header div.menu {
+        width: 100%;
+        height: 40px;
+    }
+
+    header.bg_on,
+    header.bg_out,
+    header.bg_on div.menu ul,
+    header.bg_out div.menu ul {
+        animation: none;
+    }
+
+    header div.menu ul li {
+        font-size: 1.3em;
+    }
+
+    header div.tell_box {
+        width: 180px;
+        height: 55px;
+        padding-left: 35px;
+    }
+
+    header div.tell_box::before {
+        width: 11.771%;
+    }
+
+    header div.tell_box dl dt {
+        font-size: 1.1em;
+    }
+
+    header div.tell_box dl dd {
+        font-size: 1.5em;
+    }
+
+    header div.contact_box {
+        width: 100px;
+    }
+    header div.contact_box a {
+        height: 23px;
+        margin-top: 4px;
+        font-size: 11px;
+    }
+
+    .logogroup_size {
+        margin: 5px 0 0 10px;
+        width: 130px;
+    }
+
+    .group_logo_box {
+        width: 20.792%;
+        height: 80px;
+        float: left;
+    }
+
+    #Top_img {
+        margin-top: 95px;
+    }
+
+    #Top_img div.link_box {
+        box-sizing: border-box;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding: 0 7.336%;
+    }
+
+    #Top_img a.new,
+    #Top_img a.special {
+        width: 34.797%;
+        height: 6.25vw;
+        padding-top: 1.563vw;
+        font-size: 2.188vw;
+    }
+
+    #Top_img a.new {
+        margin-right: 0;
+    }
+
+    #Top_img a.special {
+        float: right;
+    }
+
+    #Top_img a.new::after,
+    #Top_img a.special::after {
+        right: 13.214%;
+    }
+
+
+
+    #Contents h2#New,
+    #Contents h2#Specialties {
+        margin-top: 60px;
+    }
+
+    div.flipsnap a.item {
+        height: calc(20.833vw + 227px);
+    }
+
+    div.flipsnap a.item div.flip_img {
+        width: 100%;
+        height: 20.833vw;
+        float: none;
+    }
+
+    div.flipsnap a.item div.flip_img img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.flipsnap a.item div.flip_img.pano::after {
+        width: 52px;
+        height: 52px;
+    }
+
+    div.flipsnap a.item div.flip_img.floor::before {
+        width: 105px;
+        height: 34px;
+    }
+
+    div.flipsnap a.item div.flip_txt {
+        width: 100%;
+        padding: 10px;
+    }
+
+    div.flipsnap a.item div.flip_txt h3 {
+        font-size: 1.6em;
+    }
+
+    div.flipsnap a.item div.flip_txt p {
+        font-size: 1.2em;
+    }
+
+    div.flipsnap a.item div.flip_txt p.layout,
+    div.flipsnap a.item div.flip_txt p.price {
+        padding-left: 65px;
+    }
+
+    div.flipsnap a.item div.flip_txt p.address::before,
+    div.flipsnap a.item div.flip_txt p.access::before,
+    div.flipsnap a.item div.flip_txt p.layout::before,
+    div.flipsnap a.item div.flip_txt p.price::before {
+        width: 60px;
+    }
+
+    div.next,
+    div.prev {
+        width: 4.167vw;
+        height: 4.167vw;
+        top: 17.649vw;
+        margin-top: 0;
+    }
+
+    div.next {
+        right: -13px;
+    }
+
+    div.prev {
+        left: -13px;
+    }
+
+    div#Contents.list,
+    div#Contents.details,
+    div#Contents.service {
+        margin-top: 117px;
+    }
+
+    /* 売出中の物件 */
+    div.sort_box {
+        padding: 10px;
+    }
+
+    ul.narrow,
+    ul.sort {
+        font-size: 1.2em;
+    }
+
+    ul.narrow {
+        margin-right: 20px;
+    }
+
+    ul.narrow li,
+    ul.sort li {
+        margin-right: 5px;
+        line-height: 28px;
+    }
+
+    ul.narrow li a,
+    ul.sort li a {
+        padding: 0 9px;
+    }
+
+    ul.sort li a {
+        width: 24px;
+        height: 28px;
+    }
+
+    ul.sort li.asc a::before,
+    ul.sort li.desc a::before {
+        width: 8px;
+        height: 8px;
+    }
+
+    ul.sort li.asc a::before {
+        margin-top: -6px;
+    }
+
+    ul.sort li.desc a::before {
+        margin-top: -2px;
+    }
+
+    a.item_box h3 {
+        font-size: 1.8em;
+    }
+
+    a.item_box h3.new {
+        padding-left: 75px;
+    }
+
+    a.item_box h3.new::before {
+        width: 50px;
+        top: 7px;
+    }
+
+    a.item_box div.img_wrapper {
+        height: calc(45.625vw * 0.559);
+    }
+
+    a.item_box div.img_wrapper.pano::after {
+        width: 14.202%;
+        height: 25.408%;
+        bottom: 0;
+    }
+
+    a.item_box div.img_wrapper.floor::before {
+        height: 12.775%;
+        right: 22.855%;
+        bottom: 0;
+    }
+
+    a.item_box div.info_01 {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    a.item_box div.info_01 p.price {
+        font-size: 1.35em;
+    }
+
+    a.item_box div.info_01 p.price::before {
+        height: 30px;
+        top: 2px;
+        line-height: 30px;
+    }
+
+    a.item_box div.img_l {
+        margin-top: 0;
+    }
+
+    /* 物件詳細 */
+    div.details div.info {
+        width: 100%;
+        float: none;
+    }
+
+    div.details div.info p.price::before,
+    div.details div.info p.layout::before,
+    div.details div.info p.floor_area::before {
+        width: 8.333vw;
+    }
+
+    div.details div.img_box {
+        width: 100%;
+        float: none;
+    }
+
+    div.details div.img_box div.main_img_wrapper {
+        width: 53.697%;
+        margin-right: 0.895%;
+    }
+
+    div.details div.img_box div.main_img_wrapper div.main_img {
+        height: calc(50vw * 0.8);
+    }
+
+    div.details div.img_box ul.thumbnail_img {
+        width: 45.408%;
+    }
+
+    div.details div.img_box ul.thumbnail_img li {
+        width: 31.143%;
+        margin-right: 1.77%;
+        height: calc(13.58vw * 0.74);
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-child(3) {
+        margin-top: 0;
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(2n) {
+        margin-right: 1.77%;
+
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(3n) {
+        margin-right: 0;
+    }
+
+    div.details div.info2 {
+        width: 100%;
+        margin-top: calc(48.352% * 0.046);
+        float: none;
+    }
+
+    div.details div.pano_box {
+        width: 100%;
+        margin-top: calc(48.352% * 0.046);
+        float: none;
+    }
+
+    div.details div.pano_box iframe,
+    div.details div.pano_noimg {
+        height: calc(93.116vw * 0.632);
+    }
+
+    div.details div.wrapper {
+        width: 100%;
+        float: none;
+    }
+
+    div.details div.contact_box {
+        width: 100%;
+        float: none;
+        font-size: 1.6em;
+    }
+
+    div.details div.overview_box {
+        width: 100%;
+        float: none;
+    }
+
+    div.details div.overview_box dl {
+        width: 49%;
+    }
+
+    div.details div.overview_box dl:nth-child(2n) {
+        margin-left: 2%;
+    }
+
+    div.details div.overview_box dl dt {
+        width: 12.5vw;
+    }
+
+    div.details div.overview_box dl dd {
+        padding-left: 13.5vw;
+    }
+
+    div.details div.map_box {
+        width: 100%;
+        float: none;
+    }
+
+    div.details div#map_block {
+        width: 100%;
+        margin-top: calc(48.352% * 0.046);
+        float: none;
+    }
+
+    #map_to {
+        right: calc(30% + 51px);
+    }
+
+    div#map {
+        width: 70%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    div#map_b_right {
+        width: 30%;
+        height: 500px;
+    }
+
+    #map_b_right p {
+        width: auto;
+        float: none;
+    }
+
+    div.details div.loan_out {
+        width: 100%;
+        float: none;
+    }
+
+    div.details div.loan_in {
+        font-size: 1.1em;
+    }
+
+    div.details div.loan_block {
+        width: 17.125%;
+    }
+
+    div.details div.loan_block:nth-child(3) {
+        margin-left: 3.593%;
+    }
+
+    div.details div.loan_block.pb {
+        width: 17.125%;
+    }
+
+    div.details div#price_sum {
+        margin-top: 60px;
+    }
+
+    div.details div#price_sum::before {
+        top: -40px;
+        left: 50%;
+        margin-left: -80px;
+        border-top: solid 25px #5a5acc;
+        border-left: solid 80px transparent;
+        border-right: solid 80px transparent;
+    }
+
+    /* 成約済みの物件 */
+    div.sold_item {
+        width: 49.5%;
+        height: 82px;
+        margin-top: 5px;
+        font-size: 1.1em;
+    }
+
+    div.sold_item:nth-of-type(-n+6) {
+        width: 49.5%;
+        height: calc(45.594vw * 0.328);
+    }
+
+    div.sold_item:nth-of-type(3),
+    div.sold_item:nth-of-type(6) {
+        margin-right: 1%;
+    }
+
+    div.sold_item:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    div.sold_item:nth-of-type(3) {
+        margin-top: 5px;
+    }
+
+    div.sold_item div.img_box {
+        height: calc(17.438vw * 0.75);
+    }
+
+    div.sold_item div.img_box::before {
+        width: 50px;
+    }
+
+    /* フッター */
+    footer div.co_address div.kaselogo {
+        width: 100%;
+        float: none;
+    }
+
+    footer div.co_address dl dt {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    footer div.co_address dl dd {
+        margin-left: 0;
+    }
+
+    footer div.site_map ul {
+        width: 90%;
+    }
+
+    footer div.site_map ul li {
+        width: 33.333%;
+        padding-right: 0;
+    }
+
+    footer div.site_map ul.upper li {
+        padding-bottom: 15px;
+        border-bottom: none;
+    }
+
+    footer div.site_map ul li:first-child {
+        padding-left: 15px;
+    }
+
+    footer div.site_map ul li:first-child::before {
+        left: 0;
+    }
+
+    footer div.site_map ul.lower li {
+        margin-top: 0;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* iOSでのデフォルトスタイルをリセット */
+    input[type="submit"] {
+        -webkit-appearance: none;
+    }
+
+    body {
+        -webkit-text-size-adjust: 100%;
+    }
+
+    header {
+        width: 87%;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    header div.logo_box {
+        width: 68%;
+    }
+
+    header div.logo_box h1 {
+        padding-left: 5px;
+        font-size: 0.9em;
+    }
+
+    header div.logo_box .logo_txt {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header div.tell_box {
+        display: none;
+    }
+
+    header div.tell_box_sp {
+        display: flex;
+        width: 32%;
+        float: right;
+        justify-content: center;
+    }
+
+    header div.tell_box_sp a {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        width: 38px;
+        height: 40px;
+        background: #0f0d7f;
+        border-radius: 4px;
+        margin: 7.5px 0px 7.5px 65px;
+        padding-top: 24px;
+        font-size: 2.666vw;
+        text-align: center;
+        color: #ffffff;
+        float: left;
+    }
+
+    header div.tell_box_sp a::before {
+        position: absolute;
+        content: "";
+        width: 18px;
+        height: 18px;
+        top: 10px;
+        left: 50%;
+        margin-left: -9px;
+        background: url("../../img/2019/mark_tell.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    header div.contact_box {
+        display: none;
+    }
+
+    header div.contact_box a {
+        margin-top: 3px;
+    }
+
+    header div.menu {
+        display: none;
+    }
+
+    .group_logo_box {
+        width: 25.792%;
+        height: 80px;
+        float: left;
+    }
+
+    .logogroup_size {
+        margin: 16px 0 0 3px;
+        width: 75px;
+    }
+
+    .h404{
+        margin:0 0 -72vw 0;
+    }
+
+    .slicknav_menu {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 55px;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        padding: 0;
+        background: rgba(255,255,255,0.95);
+        box-shadow: 0 0 2px rgba(0,0,0,0.3);
+    }
+
+    .slicknav_nav {
+        background: rgba(255,255,255,0.95);
+    }
+
+    .slicknav_nav a {
+        color: #333333;
+    }
+
+    .slicknav_btn {
+        width: 38px;
+        height: 40px;
+        margin: 7.5px 3px 7.5px 0;
+        padding: 13px 10px;
+    }
+
+    #Top_img {
+        height: 90vw;
+        margin-top: 55px;
+        overflow: hidden;
+    }
+
+    #Top_img img {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        left: -80%;
+    }
+
+    #Top_img p.top_txt {
+        width: 80%;
+        margin-top: -40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Top_img p.top_txt img {
+        position: static;
+        width: 100%;
+    }
+
+    #Top_img div.link_box {
+        padding: 0;
+        bottom: 0;
+    }
+
+    #Top_img a.new,
+    #Top_img a.special {
+        width: 50%;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.8);
+        padding-top: 10px;
+        font-size: 1.6em;
+    }
+
+    #Top_img a.special {
+        border-left: none;
+    }
+
+    #Contents h2#New,
+    #Contents h2#Specialties {
+        margin-top: 35px;
+        padding-left: 30px;
+        font-size: 2.6em;
+    }
+
+    #Contents h2 {
+        margin-top: 20px;
+        padding-left: 15px;
+        font-size: 1.8em;
+    }
+
+    #Contents h2::before {
+        width: 24px;
+        height: 24px;
+    }
+
+    #Contents h2#New::before,
+    #Contents h2#Specialties::before {
+        width: 33px;
+        height: 33px;
+    }
+
+    div.flipsnap a.item {
+        width: 48.908%;
+        height: auto;
+        margin-right: 2.184%;
+    }
+
+    div.flipsnap.flip_n a.item:nth-of-type(5),
+    div.flipsnap.flip_n a.item:nth-of-type(6),
+    div.flipsnap.flip_s a.item:nth-of-type(3) {
+        display: none;
+    }
+
+    div.flipsnap a.item:nth-of-type(3n) {
+        margin-right: 2.184%;
+    }
+
+    div.flipsnap a.item:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    div.flipsnap a.item div.flip_img {
+        height: 130px;
+        text-align: center;
+    }
+
+    div.flipsnap a.item div.flip_img img {
+        width: auto;
+        height: 100%;
+    }
+
+
+    div.flipsnap a.item div.flip_img.pano::after {
+        width: 45px;
+        height: 45px;
+    }
+
+    div.flipsnap a.item div.flip_img.floor::before {
+        width: 85px;
+        height: 27px;
+    }
+
+    div.flipsnap a.item div.flip_txt {
+        min-height: 175px;
+    }
+
+    div.flipsnap a.item div.flip_txt h3 {
+        height: 26px;
+        font-size: 1.1em;
+    }
+
+    div.flipsnap a.item div.flip_txt p {
+        font-size: 0.9em;
+    }
+
+    div.flipsnap a.item div.flip_txt p.address::before,
+    div.flipsnap a.item div.flip_txt p.access::before,
+    div.flipsnap a.item div.flip_txt p.layout::before,
+    div.flipsnap a.item div.flip_txt p.price::before {
+        width: 50px;
+    }
+
+    div.flipsnap a.item div.flip_txt p.address,
+    div.flipsnap a.item div.flip_txt p.access {
+        padding-top: 17px;
+    }
+
+    div.flipsnap a.item div.flip_txt p.access {
+        height: 18px;
+    }
+
+    div.flipsnap a.item div.flip_txt p.layout,
+    div.flipsnap a.item div.flip_txt p.price {
+        padding-left: 55px;
+    }
+
+    div.flipsnap a.item div.flip_txt p.price {
+        margin-bottom: 0;
+    }
+
+    div.next,
+    div.prev {
+        display: none;
+    }
+
+    div#Contents.list,
+    div#Contents.details,
+    div#Contents.service {
+        margin-top: 60px;
+    }
+
+    /* 売出中の物件 */
+    div.sort_box {
+        padding: 5px;
+    }
+
+    ul.path li {
+        font-size: 1.2em;
+    }
+
+    ul.narrow {
+        width: 68%;
+        margin-right: 0;
+        float: left;
+    }
+
+    ul.sort {
+        width: 30%;
+        float: right;
+    }
+
+    ul.narrow li {
+        width: 24%;
+        margin-right: 1%;
+    }
+
+    ul.sort li {
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    ul.narrow li a,
+    ul.sort li a {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        color: #505050;
+    }
+
+    ul.sort li a {
+        height: 30px;
+    }
+
+    ul.narrow li:first-child,
+    ul.sort li:first-child {
+        width: 100%;
+        background: #505050;
+        margin-bottom: 5px;
+        border-radius: 15px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    ul.narrow li:first-child::after,
+    ul.sort li:first-child::after {
+        content: "";
+    }
+
+    div#Contents.list a.item_box {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    a.item_box h3 {
+        font-size: 1.6em;
+        padding: 5px 10px 9px;
+    }
+
+    a.item_box h3.new {
+        padding-left: 55px;
+    }
+
+    a.item_box h3.new::before {
+        width: 40px;
+        height: 20px;
+        left: 5px;
+        line-height: 20px;
+    }
+
+    a.item_box div.img_wrapper {
+        height: auto;
+    }
+
+    a.item_box div.info_01 {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    a.item_box div.img_l,
+    a.item_box div.img_s {
+        width: 100%;
+    }
+
+    a.item_box div.img_l {
+        margin-bottom: 5px;
+    }
+
+    a.item_box div.img_wrapper.pano::after {
+        width: 16.663vw;
+        height: 16.663vw;
+        bottom: 3px;
+    }
+
+    a.item_box div.img_wrapper.floor::before {
+        width: 30.986vw;
+        height: calc(30.986vw * 0.318);
+        right: 28.855%;
+        bottom: 3px;
+    }
+
+    a.item_box div.feature {
+        padding: 10px;
+    }
+
+    /* 物件詳細 */
+    div#Contents.details h3 {
+        margin-top: 8px;
+        font-size: 1.8em;
+    }
+
+    div#Contents.details h3.new::before {
+        top: 7px;
+    }
+
+    div.details div.info p {
+        padding-left: 21vw;
+        font-size: 1.4em;
+        line-height: 30px;
+    }
+
+    div.details div.info p.price::before,
+    div.details div.info p.layout::before,
+    div.details div.info p.floor_area::before {
+        width: 21vw;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    div.details div.info p.price {
+        width: 80%;
+    }
+
+    div.details div.info p.pdf_sp {
+        display: block;
+        width: 20%;
+        padding-left: 0;
+        float: left;
+    }
+
+    div.details ul.icon_box {
+        margin-top:0px;
+        margin-bottom:5px;
+    }
+
+    div.details div.info p.pdf_sp img {
+        max-width: 100%;
+        vertical-align: bottom;
+    }
+
+    div.details div.img_box div.main_img_wrapper {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    div.details div.img_box div.main_img_wrapper div.main_img {
+        height: calc(90.903vw * 0.8);
+    }
+
+    div.details div.img_box ul.thumbnail_img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    div.details div.img_box ul.thumbnail_img li {
+        width: 23%;
+        height: calc(21.814vw * 0.74);
+        margin-right: 1.329%;
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-child(4) {
+        margin-top: 0;
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(2n),
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(3n) {
+        margin-right: 1.329%;
+    }
+
+    div.details div.img_box ul.thumbnail_img li:nth-of-type(4n) {
+        margin-right: 0;
+    }
+
+    div.details ul.icon_box li.pdf {
+        display: none;
+    }
+
+    div.details h4 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    div.details h4.pano::before,
+    div.details h4.overview::before,
+    div.details h4.map::before,
+    div.details h4.loan::before {
+        height: 35px;
+        top: 2px;
+    }
+
+    div.details h4.pano {
+        box-sizing: border-box;
+
+    }
+
+    div.details h4.pano::before{
+        width: 30px;
+        left: 10px;
+    }
+
+    div.details h4.overview {
+        box-sizing: border-box;
+
+    }
+
+    div.details h4.overview::before {
+        width: 42.9px;
+        left: 7px;
+    }
+
+    div.details h4.map {
+        box-sizing: border-box;
+
+    }
+
+    div.details h4.map::before {
+        width: 35.3px;
+        height: 37px;
+        top: -2px;
+        left: 10px;
+    }
+
+    div.details h4.loan {
+        box-sizing: border-box;
+
+    }
+
+    div.details h4.loan::before {
+        width: 24.5px;
+        left: 15px;
+    }
+
+    div.details div.pano_box {
+        margin-top: 20px;
+    }
+
+    div.details div.pano_box iframe,
+    div.details div.pano_noimg {
+        height: 90vw;
+    }
+
+    div.details div.contact_box {
+        font-size: 1.2em;
+        line-height: 1.2;
+    }
+
+    div.details div.contact_box input[type="submit"] {
+        width: 90%;
+        background-size: auto 40%;
+        margin-bottom: 10px;
+    }
+
+    div.details div.overview_box {
+        margin-top: 20px;
+    }
+
+    div.details div.overview_box div.overview_inner {
+        padding: 0;
+        border: none;
+    }
+
+    div.details div.overview_box dl {
+        width: 100%;
+    }
+
+    div.details div.overview_box dl:nth-child(2n) {
+        margin-left: 0;
+    }
+
+    div.details div.overview_box dl dt {
+        width: 28vw;
+    }
+
+    div.details div.overview_box dl dd {
+        padding-left: 30vw;
+    }
+
+    div.details div#map_block {
+        margin-top: 20px;
+    }
+
+    div#map {
+        width: 100%;
+        height: 90vw;
+        border-right: 1px solid #ccc;
+        border-bottom: none;
+    }
+
+    #map_to {
+        padding: 20px 10px;
+        right: 10px;
+    }
+
+    div#map_b_right {
+        width: 100%;
+        height: auto;
+    }
+
+    #map_b_right p {
+        width: 50%;
+        float: left;
+        font-size: 1.2em;
+    }
+
+    div.details div#map_block p.note,
+    div.details div.loan_out p.note {
+        text-align: left;
+    }
+
+    div.details div.info p.price span {
+        font-size: 23px;
+    }
+
+    div.details div.loan_out {
+        margin-top: 20px;
+    }
+
+    div.details div.loan_block {
+        width: 48.205%;
+        margin-left: 3.59%;
+    }
+
+    div.details div.loan_block.pb {
+        width: 30.9%;
+    }
+
+    div.details div.loan_block:nth-child(3) {
+        margin-left: 0;
+    }
+
+    div.details div.loan_block input[type="number"] {
+        font-size: 1.5em;
+    }
+
+    div.details div#price_sum {
+        width: 50%;
+        font-size:23px;
+    }
+
+    div.details div#price_sum span {
+        right: 6px;
+        bottom: 12px;
+    }
+
+    div.details div#price_sum::before {
+        border-top: solid 23px #5a5acc;
+        border-left: solid 58px transparent;
+        border-right: solid 58px transparent;
+        top: -50px;
+        margin-left: -58px;
+    }
+
+    div.details div.sum_wrapper p.price_date {
+        margin-right: -38.5px;
+        bottom: auto;
+        top: 45px;
+    }
+
+    /* 成約済みの物件 */
+    div.sold_item {
+        width: 100%;
+        height: auto;
+    }
+
+    div.sold_item:nth-of-type(-n+6) {
+        width: 100%;
+        height: auto;
+    }
+
+    div.sold_item:nth-of-type(1) {
+        margin-top: 15px;
+    }
+
+    div.sold_item:nth-of-type(2) {
+        margin-top: 5px;
+    }
+
+    div.sold_item div.img_box {
+        width: 25%;
+        height: calc(22.294vw * 0.75);
+    }
+
+    div.sold_item div.img_box::before {
+        width: 40px;
+        height: 25px;
+        top: 3px;
+        left: 3px;
+        line-height: 25px;
+    }
+
+    div.sold_item div.info_box.img_on {
+        padding-left: 27.546%;
+    }
+
+    /* フッター */
+    footer {
+        box-sizing: border-box;
+        margin-top: 30px;
+        padding: 5px 0 0;
+    }
+
+    footer div.co_address {
+        box-sizing: border-box;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 2.604%;
+        padding-right: 2.604%;
+    }
+
+    footer div.co_address dl dt {
+        margin-top: 5px;
+        font-size: 1.2em;
+    }
+
+    footer div.co_address dl dd {
+        font-size: 1em;
+    }
+
+    footer div.co_address div.kaselogo {
+        width: 30%;
+    }
+
+    footer div.co_address div.kaselogo img {
+        vertical-align: bottom;
+    }
+    /*
+    footer div.co_address div.kaselogo {
+    margin-top: 0px;
+    vertical-align: middle;
+    display: inline-block;
+    }
+
+    .footer_company{
+    display: inline-block;
+    vertical-align: middle;
+    }
+    */
+    .co_address{
+        display:none;
+    }
+
+    footer div.site_map {
+        box-sizing: border-box;
+        width: 100%;
+        margin-top: 15px;
+        padding-left: 2.604%;
+        padding-right: 2.604%;
+    }
+
+    footer div.site_map ul {
+        width: 100%;
+    }
+
+    footer div.site_map ul li {
+        padding-left: 10px;
+        font-size: 1em;
+    }
+
+    footer div.site_map ul li:first-child {
+        padding-left: 10px;
+    }
+
+    footer div.site_map ul li::before {
+        border-left: solid 7px #000000;
+        border-top: solid 5px transparent;
+        border-bottom: solid 5px transparent;
+    }
+
+    footer div.copyright {
+        margin-top: 0;
+        font-size: 0.9em;
+    }
+}
